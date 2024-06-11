@@ -1,5 +1,6 @@
 <?php
 require('header.php');
+$uid = null; // Initialize $uid variable
 if(isset($_SESSION['user_id'])){
     $uid=$_SESSION['user_id'];
 }
